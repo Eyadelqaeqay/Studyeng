@@ -119,6 +119,24 @@ header {
   transform: translateY(0);
 }
 
+@media (max-width: 600px) {
+  .header-actions {
+    position: relative;
+    top: 0;
+    right: 0;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  [dir="rtl"] .header-actions {
+    left: 0;
+    right: 0;
+  }
+  .action-btn-sm {
+    padding: 6px 14px;
+    font-size: 12px;
+  }
+}
+
 body {
   top: 0 !important;
 }
